@@ -18,5 +18,5 @@ I’m keeping a daily log in [`BUILD_LOG.md`](./BUILD_LOG.md) with commits and r
 - Build strong Python fundamentals  
 - Practice daily with small exercises  
 - Apply what I learn directly to Kasilink  
-- Keep everything documented for future reference  
+- Keep everything documented for future reference 
 
