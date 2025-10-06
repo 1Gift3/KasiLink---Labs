@@ -2,7 +2,7 @@ smallest_no = None
 largest_no = None
 
 while True:
-    number = input("Enter the smallest number: ")
+    number = input("Enter number: ")
     #print("number:", number)
     if number.lower() == "done":
         break
@@ -16,7 +16,8 @@ while True:
 
     except:
         print("Invalid input")
+        continue
         
 
-    print(f"Smallest number is {smallest_no}")
-    print(f"Largest number is {largest_no}")
+    print(f"Maximum is {largest_no}")
+    print(f"Minimum is {smallest_no}")
