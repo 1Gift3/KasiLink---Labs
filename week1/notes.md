@@ -1,4 +1,4 @@
-01/10/25
+01/October/25
 I started with Kasilab - which i am revising Py4e with kasilink in mind excercises. The thing is ive been learning and stopping when i get to big bugs or a negative mental attitude.
 
 So with changing that since mental change that it is God that has given me this so what so ever i come accross i will persist and concourer because it is mine for the taking.
@@ -7,7 +7,7 @@ Today i worked on Input prompts with, list based prompts and a bit of conditiona
 
 I must no start applying the test once done writting file - or habits as Dr chuck does, also not forgetting what Gama said Silid principles, fundamentals and design pattern.
 
-02/10/25
+02/October/25
 
 Yes i keep on stumbling on and off so What ? am i learning yeah might it take time yeah - does it matter not when when im honest on it. Yes it might not reflect a perfect work guy but im applying to kasilink as i should be. Youll never know
 
@@ -17,7 +17,7 @@ Create your folders from Vscode then navigate with shell - and also check code w
 
 Worked on py4e conditionals and man was i challenged , well 2morow we up to deepseek then kasilink.
 
-03/10/25
+03/October/25
 
 Lol turns out that my long named folder of excercises 3.0 conditionals and exercises variables - when shelling into them i would need cd "name " not just cd name of folder ahahha.
 
@@ -57,4 +57,11 @@ Fixed Issues:
 ✅ Fixed Function Names: Changed rate_seller() calls to server() to match the actual function name
 ✅ Moved Test Code: Put the function calls outside the function definition where they belong
 ✅ Cleaned Up Output: Removed the confusing intermediate print statements inside the function
+
+October/06/26
+
+Wow man function for a service request system - here was i calling my function before even finishing the tot and even printing - Interesting thou was it.
+
+Worked on loops today and a service booking to kasilink
+
 
