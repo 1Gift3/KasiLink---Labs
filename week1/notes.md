@@ -58,10 +58,38 @@ Fixed Issues:
 ✅ Moved Test Code: Put the function calls outside the function definition where they belong
 ✅ Cleaned Up Output: Removed the confusing intermediate print statements inside the function
 
-October/06/26
+October/06/225
 
 Wow man function for a service request system - here was i calling my function before even finishing the tot and even printing - Interesting thou was it.
 
 Worked on loops today and a service booking to kasilink
 
+
+October/07/25
+Continued on service_booking.py.
+
+Had problems.
+Root cause: the service-choice and budget-validation loops were written so they could exit prematurely (wrong use of break) and had a few flow/indentation issues that made the code behave incorrectly at runtime.
+
+Effects before fix:
+If a user entered an unavailable service the code used break, which would exit the validation loop and let execution continue with undefined variables (or end incorrectly).
+Budget validation had unreachable break statements after raising a ValueError and could accept invalid inputs.
+The script invoked book_service() unconditionally at module import, which is fine for a script but less safe for reuse/imports.
+
+Fixes applied:
+For the service choice loop:
+Replaced the erroneous break on invalid choice with continue so the loop prompts again until a valid service is entered.
+Explicit break only when a valid choice is provided.
+Made the exception handler specific and continue on bad input.
+
+For the budget loop:
+Read input into budget_input then converted to float(budget_input) to avoid confusing prompts.
+Removed unreachable break after raises and instead raise the ValueError so the except block handles re-prompting.
+Only break the loop after a valid budget is parsed and passes checks.
+
+Module protection: wrapped the final call in if __name__ == "__main__": and moved service, budget = book_service() there, so importing the module doesn't run interactive prompts.
+
+ii. Location based service - well i ddnt know to give a string title first letter, .title(): converts the string to title case — capitalizes the first letter of each word and makes the rest lowercase.
+
+', '.join(...) takes the transformed list and joins its elements into a single string with ", " as the separator.
 
