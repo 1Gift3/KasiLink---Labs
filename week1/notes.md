@@ -93,3 +93,19 @@ ii. Location based service - well i ddnt know to give a string title first lette
 
 ', '.join(...) takes the transformed list and joins its elements into a single string with ", " as the separator.
 
+October /14/25
+
+So from the 8th of october to the 10th i was unable to push nothing but that doesnt mean nothing was happening.
+
+I attended PyconAfrica 25 for the 3 days and maan did i really learna dn was exposed to much - from a whole python community brilliant minds, great sponsors and great reception.
+
+This week as bit by bit ill be writting on such  with no rush - but overral it was amazing as the idea of Kasilink to be a platform was ignited there and also that i understand better from visuals rathers than terms.
+
+ 7.2.py to correctly extract the numeric substring after "X-DSPAM-Confidence:" and convert it to float, add basic file-not-found handling, and print an average;
+
+ Was faced with alot of mental battle today:
+
+- Drowsiness unable to apply mysself deeper into things until mid day i realised that i didn't call my Lord to the scene or askHim to be with me. I then relaxed slept abit then when i woke went on my knees.
+- So i rememebered that i learned something last week at the conference about how my brain works - i then went back to Pseaudo codes or diagrams to put the logic and flow first.
+
+- im still on the files diagram not done yet but im thankful.
