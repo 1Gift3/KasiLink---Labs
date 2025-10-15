@@ -109,3 +109,17 @@ This week as bit by bit ill be writting on such  with no rush - but overral it w
 - So i rememebered that i learned something last week at the conference about how my brain works - i then went back to Pseaudo codes or diagrams to put the logic and flow first.
 
 - im still on the files diagram not done yet but im thankful.
+
+October / 15th/ 25
+
+Wow only now the slice [:] and index do i get[]
+
+When a split is being done like the X-DSPASM : you get a list with up to 2 elements (idexing is 0=first 1=second)
+
+- Ooh yes so above you are correct but i believ what you were reffering to was the (':
+', 1)
+- So the one is the maxsplit as in how many splits are performed.
+
+Wow im not saying that i like Pseuado or diagrams but they made me be able to look into code kinda break it down with 7.2.py
+
+As i journey on im learning to be precise in my coding and sticking to one language one stack - Python.PostgreSql and Django.
