@@ -123,3 +123,15 @@ When a split is being done like the X-DSPASM : you get a list with up to 2 eleme
 Wow im not saying that i like Pseuado or diagrams but they made me be able to look into code kinda break it down with 7.2.py
 
 As i journey on im learning to be precise in my coding and sticking to one language one stack - Python.PostgreSql and Django.
+
+October / 16/ 25
+
+- Loops loops loops was working on 7.2 diagram and learned that loops are designed to run forever(while true) until we the user signal we want it to stop by entering 'done'. break is a standard way to exit such input loop immediately.
+
+- So ive read the logic but somehow its only getting to me now the difference between loops and statements.
+
+- statement tests a condition once at the spot where it appears.
+If the condition is true, the indented block under the if runs exactly once (unless inside a loop, in which case it may run multiple times because the loop repeats).
+
+- while loop does repeatedly tests a condition and runs its block as long as the condition is true.
+The condition is checked before each iteration; when it becomes false (or a break executes), the loop ends and execution continues after the loop.
