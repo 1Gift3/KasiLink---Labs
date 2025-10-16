@@ -19,5 +19,5 @@ while True:
         continue
         
 
-    print(f"Maximum is {largest_no}")
-    print(f"Minimum is {smallest_no}")
+print(f"Maximum is {largest_no}")
+print(f"Minimum is {smallest_no}")
