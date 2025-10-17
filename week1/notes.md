@@ -135,3 +135,12 @@ If the condition is true, the indented block under the if runs exactly once (unl
 
 - while loop does repeatedly tests a condition and runs its block as long as the condition is true.
 The condition is checked before each iteration; when it becomes false (or a break executes), the loop ends and execution continues after the loop.
+
+October/17/25
+
+Was on lists today but Guardians were introduced to me - guarding a blowing part of the code. Another version of try and except but the reason we didn't use try/except on excercise is because - if it comes thru that line and finds not what it seeks it will skip...using if (continue)
+
+- So i think when the code works and gives us something but then retraces (Traceback) thats when we intoduce guardian.
+
+- So i noticed that even if i use chatgbp to confirm my psaeudo its however not entirely accurate.
+
