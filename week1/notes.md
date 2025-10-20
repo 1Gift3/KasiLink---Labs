@@ -144,3 +144,12 @@ Was on lists today but Guardians were introduced to me - guarding a blowing part
 
 - So i noticed that even if i use chatgbp to confirm my psaeudo its however not entirely accurate.
 
+October /20/25
+
+Still continueing with my plan - python, postgresql and django.
+
+Yeeesh just learned that a for loop has no options yes or no in 8.5 diagram. it processes the loop.
+
+-  also learned that , Parallelogram: input / output (e.g., "Read file", "Print").
+
+- SO flow charts are really helping me get the logic, bit by bit.
