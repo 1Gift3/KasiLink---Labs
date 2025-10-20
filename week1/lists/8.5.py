@@ -15,4 +15,3 @@ for string in email_list:
     print(string)
 
 print("There were", len(email_list), "lines in the file with From as the first word")
-
