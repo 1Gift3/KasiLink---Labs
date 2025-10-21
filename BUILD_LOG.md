@@ -95,3 +95,4 @@ Explanation: The list comprehension [loc.title() for loc in available_locations]
 
 Outcome:
 The service_booking.py module now has robust, user-friendly input validation. It handles errors gracefully, maintains correct control flow, and is structured as a reusable component. The code is more predictable and less prone to runtime failures due to invalid user input.
+
