@@ -153,3 +153,19 @@ Yeeesh just learned that a for loop has no options yes or no in 8.5 diagram. it 
 -  also learned that , Parallelogram: input / output (e.g., "Read file", "Print").
 
 - SO flow charts are really helping me get the logic, bit by bit.
+
+October/21/25
+
+- Dictionaries,  im learning that this line many.get(w, 0) especially the zero is for - If w is not found (first time the word appears), it returns 0. Now in the dictionary many, If w is found, it returns its current count.
+
+This is called dictionary based frequency - A histogram (in programming, a mapping of items to their counts) Defensive dictionary lookup (using .get(key, default) to avoid KeyError)
+
+- a classic way to count how many times each item (word) appears in a collection.
+
+- when i was flowcharting something ddnt make sens to me and i ask chat of vscode then it outlayd it. filename being empty - means: Did the user press Enter without typing anything when prompted for the file name? and the user just presses Enter, fname will be an empty string ("").
+So, len(fname) < 1 checks if the string has zero length (no characters).
+
+If it’s empty, the program sets fname to 'clown.txt' so it has a default file to use.
+
+- im learning that my use of time needs attention - im distracted when i work 9-12 annd 15H00 - 18H00. This need re adjustment.
+
