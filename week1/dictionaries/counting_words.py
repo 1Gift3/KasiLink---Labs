@@ -3,7 +3,7 @@ if len(fname) < 1 : fname = 'clown.txt'
 
 fhand = open(fname)
 
-many = dict()
+many = []
 
 for line in fhand:
     line = line.rstrip()
