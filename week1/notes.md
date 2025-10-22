@@ -169,3 +169,18 @@ If it’s empty, the program sets fname to 'clown.txt' so it has a default file 
 
 - im learning that my use of time needs attention - im distracted when i work 9-12 annd 15H00 - 18H00. This need re adjustment.
 
+October /22/25
+
+So Both lists and dictionaries are a way to store up data in a pc, same symbol [] but the other stores it in key, value pairs while list as asn array storing all types both.
+
+- yeessh loops , "if is false" → skip the if-block → continue at the next statement (still inside the same loop body if you are inside a loop).
+"for loop" → after the loop body finishes for one item, the loop gets the next item and runs the body again.
+
+- if statement only decides whether to run the indented block right there. So its the condition that will determine
+
+- for loop repeats its body for each item in the iterable.
+
+- Loops playing games with me but im not giving in , "For each line - Yes/No" represents a loop condition checks if there are more lines to process in a file. 
+
+- Ooh initializing dictionary and lists lol {} []
+
