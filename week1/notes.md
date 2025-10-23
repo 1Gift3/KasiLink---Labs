@@ -142,7 +142,7 @@ Was on lists today but Guardians were introduced to me - guarding a blowing part
 
 - So i think when the code works and gives us something but then retraces (Traceback) thats when we intoduce guardian.
 
-- So i noticed that even if i use chatgbp to confirm my psaeudo its however not entirely accurate.
+- So i noticed that even if i use chatgpt to confirm my psaeudo its however not entirely accurate.
 
 October /20/25
 
@@ -183,4 +183,8 @@ So Both lists and dictionaries are a way to store up data in a pc, same symbol [
 - Loops playing games with me but im not giving in , "For each line - Yes/No" represents a loop condition checks if there are more lines to process in a file. 
 
 - Ooh initializing dictionary and lists lol {} []
+
+October/ 23/25
+
+- Came across again with raise that i now had to understand it. So a bare minimum one inside an except block re-raises the same exception that was caught - meaning after printing "File not found: …", Python will continue raising the original FileNotFoundError and the program will terminate (unless some outer code catches it). The original traceback is preserved.
 
