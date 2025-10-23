@@ -188,3 +188,5 @@ October/ 23/25
 
 - Came across again with raise that i now had to understand it. So a bare minimum one inside an except block re-raises the same exception that was caught - meaning after printing "File not found: …", Python will continue raising the original FileNotFoundError and the program will terminate (unless some outer code catches it). The original traceback is preserved.
 
+- ooh yes and learned that tuples are a sequence of list but in key value pairs. Theres a difference when i read it and when i finally understand it.
+
