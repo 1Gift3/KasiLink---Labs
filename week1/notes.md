@@ -190,3 +190,14 @@ October/ 23/25
 
 - ooh yes and learned that tuples are a sequence of list but in key value pairs. Theres a difference when i read it and when i finally understand it.
 
+October/24/25
+
+ - So when flowcharing be cautious to flow what the code says cause at times something might be created and just be redundant.
+
+ - So Flowcharts should show meaningful actions/decisions; unused/redundant statements add noise and confuse a reader.
+
+ - Idk whether it takes time but i keep on coming to this - that a for loop repeats only its own body. if we have another loop nested, each loop repeats the statement inside its own block..so code inside the inner loop returns the inner lop header not the outer loop header.
+
+ - been running from this a min now but today had to put myself out there...on powershel to open file cat filename and command prompt is type filename.
+
+ 
