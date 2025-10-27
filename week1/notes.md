@@ -1,3 +1,5 @@
+Week 1
+
 01/October/25
 I started with Kasilab - which i am revising Py4e with kasilink in mind excercises. The thing is ive been learning and stopping when i get to big bugs or a negative mental attitude.
 
@@ -58,6 +60,8 @@ Fixed Issues:
 ✅ Moved Test Code: Put the function calls outside the function definition where they belong
 ✅ Cleaned Up Output: Removed the confusing intermediate print statements inside the function
 
+Week 2 
+
 October/06/225
 
 Wow man function for a service request system - here was i calling my function before even finishing the tot and even printing - Interesting thou was it.
@@ -92,6 +96,8 @@ Module protection: wrapped the final call in if __name__ == "__main__": and move
 ii. Location based service - well i ddnt know to give a string title first letter, .title(): converts the string to title case — capitalizes the first letter of each word and makes the rest lowercase.
 
 ', '.join(...) takes the transformed list and joins its elements into a single string with ", " as the separator.
+
+Week 3 
 
 October /14/25
 
@@ -144,6 +150,7 @@ Was on lists today but Guardians were introduced to me - guarding a blowing part
 
 - So i noticed that even if i use chatgpt to confirm my psaeudo its however not entirely accurate.
 
+Week 3 
 October /20/25
 
 Still continueing with my plan - python, postgresql and django.
@@ -201,3 +208,15 @@ October/24/25
  - been running from this a min now but today had to put myself out there...on powershel to open file cat filename and command prompt is type filename.
 
  
+
+Week 4
+
+October/27/25
+- So i realised that python is broad and for me awhile ago i chose backend, so today checked what on python im more on then automation with backend came up so those too. More like automation and web dev.
+
+-  So to start with what i've realised im for ever doing on auto is git adding then push. i can start there and also wanted a while ago to automate my notes to formate build log and social media post. or automate that by 5 thirty always as for a review maybe to log in.
+
+- Lets start there.
+
+- When working on automation, you need to specify where on your directory youd run the script.
+
