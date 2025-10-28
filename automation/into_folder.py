@@ -1,11 +1,17 @@
 import os
+import errno
 
 #defining  source and target folders
 source = "C:/Users/joshu/Downloads"
 target = "C:/Users/joshu/Downloads/Downloaded_images"
 
-# Creating target folder if not there
-os.makedirs(target, exists_ok=True)
+# Creating target folder if not there (compatible with older Python)
+try:
+    os.makedirs(target)
+except OSError as e:
+    # If the directory already exists, ignore the error; otherwise re-raise
+    if e.errno != errno.EEXIST:
+        raise
 
 #loop through downloads folder
 for file in os.listdir(source):
