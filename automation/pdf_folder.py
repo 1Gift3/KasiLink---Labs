@@ -26,3 +26,4 @@ for file in os.listdir(source):
         print(f'Moved: {file}')
 
 print ('All images have been moved to Downloaded_images folder.')
+
