@@ -219,4 +219,18 @@ October/27/25
 - Lets start there.
 
 - When working on automation, you need to specify where on your directory youd run the script.
+ Ran script to take my jpg files to pictures in my dir.
+ 
+
+October/28/25
+
+- Python has upgrade changing 'The exists_ok' keyword in Python 3.2+. If you run the script on an older Python (or on an environment where os.makedirs is overridden), calling (exists_ok=True) raises TypeError because that keyword isn't recognized anymore.
+
+So "errno" module that exposes platform error numbers (the same symbolic names from POSIX errno.h) was brought in.
+
+- So i ran an automation that picks up all images that i download into one folder from webp, jpeg,jpg and png.
+
+- And did one also for my pdf files - all in order now.
+
+- I started on webscraping : scraping data from sites for first tymers for my ground breakers show. But i soon realised that my commitment wasntthere and normally maybe after sum finish script my drive less. so then onnce this kicks i will review code write notes and comments etc
 
