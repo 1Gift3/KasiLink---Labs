@@ -234,3 +234,9 @@ So "errno" module that exposes platform error numbers (the same symbolic names f
 
 - I started on webscraping : scraping data from sites for first tymers for my ground breakers show. But i soon realised that my commitment wasntthere and normally maybe after sum finish script my drive less. so then onnce this kicks i will review code write notes and comments etc
 
+- October/30th/25
+- I didnt work yesterday and maan did it not feel ohk..im glad im here today
+
+- Ive slept enough Ive played enough my time in now the opportunity is now. Now or Never!
+
+- 
