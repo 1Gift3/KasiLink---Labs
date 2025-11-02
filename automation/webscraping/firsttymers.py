@@ -13,7 +13,7 @@ conn.commit()
 
 # scraping function
 def scrape_achievement_page(url):
-    # This gets HTTP requests
+    # the code asks the remote web server at the address given by the variable url. The request method is GET (the standard for “give me this page”), and the call includes an HTTP header named User-Agent with value Mozilla/5. so the server sees a browser-like identifier.
     resp =requests.get(url, headers={'User-Agent': 'Mozilla/5.'})
     if resp.status_code != 200:
         print(f"Failed to retrieve page: {url}")
@@ -26,7 +26,9 @@ def scrape_achievement_page(url):
     data_list = []
 
     for article in articles:
+        # This collects all text content from the article tag and its descendants, concatenates it, and because strip=True, leading and trailing whitespace is removed.
         text = article.get_text(strip=True)
+        # Asks BeautifulSoup for the value of the attribute named "href" on the current article Tag.
         link = article.get("href")
 
         if not link or not text:
