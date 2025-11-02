@@ -239,4 +239,12 @@ So "errno" module that exposes platform error numbers (the same symbolic names f
 
 - Ive slept enough Ive played enough my time in now the opportunity is now. Now or Never!
 
-- 
+- October/02/2025
+- Was curious what is a parser - A parser is a program or library that reads raw text (or bytes) and turns it into a structured representation you can work with in code. For HTML that structure is usually a tree of nodes (DOM-like): elements, attributes, and text nodes.
+How that applies to HTML scraping
+
+When you fetch a web page you get raw HTML bytes. An HTML parser:
+Tokenizes the bytes/characters (tags, attributes, text).
+Builds a tree of nodes (elements nested inside other elements).
+Normalizes/fixes common mistakes in real-world HTML (missing end tags, misnested tags).
+After parsing you can query the tree (find elements, extract text, follow links).
