@@ -13,6 +13,7 @@ conn.commit()
 
 # scraping function
 def scrape_achievement_page(url):
+    # This gets HTTP requests
     resp =requests.get(url, headers={'User-Agent': 'Mozilla/5.'})
     if resp.status_code != 200:
         print(f"Failed to retrieve page: {url}")
