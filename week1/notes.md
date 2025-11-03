@@ -248,3 +248,13 @@ Tokenizes the bytes/characters (tags, attributes, text).
 Builds a tree of nodes (elements nested inside other elements).
 Normalizes/fixes common mistakes in real-world HTML (missing end tags, misnested tags).
 After parsing you can query the tree (find elements, extract text, follow links).
+
+Week 5
+
+- Novermber/03/25
+
+- Yeesh ive been on sum soul searching i guess when  i seem to struggle with putting much focus on my programming. Well i guess thats what happens when you trying to juggle alot in order to stay afloat in life - but ive put all to rest only me and programming now will see where it takes us.
+
+- manged to launch database today sql3 and struggle to see it on my power shell etc but eventually managed. can see the table but cant see the contents even the script runs for firsttyimeers, will have to go thru it again...im a fan of postgre bytheway.
+
+- 
