@@ -259,4 +259,11 @@ Week 5
 
 - November/03/25
 
-- 
+- Man for the first time i really had fun, just playing around with code. No deadline, project, or solving problem just playing around with it seeing what it does how i can also do something with it.
+
+-So my firsttymers script work but now its collecting othing i need to change approach to find that which i can scrape from.
+
+- Wow struggled through sites and the script to print out or show me first timers until i used wiki but now its all mixed up needing sum attention to detail sorting also.
+
+- i Think the mentality of playing around with code seeing what it can do or show me or what i need - might be a great mentality going into things.
+
