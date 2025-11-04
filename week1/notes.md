@@ -257,4 +257,6 @@ Week 5
 
 - manged to launch database today sql3 and struggle to see it on my power shell etc but eventually managed. can see the table but cant see the contents even the script runs for firsttyimeers, will have to go thru it again...im a fan of postgre bytheway.
 
+- November/03/25
+
 - 
