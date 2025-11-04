@@ -6,15 +6,41 @@ import os
 from urllib.parse import urljoin
 
 
-# database setup
-DB_PATH = os.path.abspath("first_timers.db")
+# database setup: place DB next to this script so outputs live in automation/webscraping
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.join(SCRIPT_DIR, "first_timers.db")
 print(f"Using database: {DB_PATH}")
 conn = sqlite3.connect(DB_PATH)
 cursor = conn.cursor()
 
-cursor.execute(""" CREATE TABLE IF NOT EXISTS achievements ( id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, achievement TEXT, 
-               date TEXT, country TEXT, url TEXT ) """)
+# Add a uniqueness constraint to avoid duplicates when migrating or re-running
+cursor.execute(""" CREATE TABLE IF NOT EXISTS achievements (
+                   id INTEGER PRIMARY KEY AUTOINCREMENT,
+                   name TEXT,
+                   achievement TEXT,
+                   date TEXT,
+                   country TEXT,
+                   url TEXT,
+                   UNIQUE(achievement, url)
+               ) """)
 conn.commit()
+
+# If an older DB exists in the project root (created by past runs), migrate rows into the script-local DB
+project_root = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
+legacy_db = os.path.join(project_root, "first_timers.db")
+if os.path.exists(legacy_db) and os.path.abspath(legacy_db) != os.path.abspath(DB_PATH):
+    try:
+        print(f"Found legacy DB at {legacy_db}; attaching to migrate rows...")
+        cursor.execute("ATTACH DATABASE ? AS old", (legacy_db,))
+        before = cursor.execute("SELECT COUNT(*) FROM achievements").fetchone()[0]
+        cursor.execute("INSERT OR IGNORE INTO achievements (name, achievement, date, country, url) SELECT name,achievement,date,country,url FROM old.achievements")
+        conn.commit()
+        after = cursor.execute("SELECT COUNT(*) FROM achievements").fetchone()[0]
+        migrated = after - before
+        cursor.execute("DETACH DATABASE old")
+        print(f"Migrated {migrated} rows from legacy DB into {DB_PATH}")
+    except Exception as e:
+        print(f"Migration from legacy DB failed: {e}")
 
 # scraping function
 def scrape_achievement_page(url):
