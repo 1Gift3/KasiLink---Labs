@@ -7,7 +7,9 @@ from urllib.parse import urljoin
 
 
 # database setup: place DB next to this script so outputs live in automation/webscraping
+# The path absolute path containing the script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# This builds a path to a file named first_timers.db in the same directory
 DB_PATH = os.path.join(SCRIPT_DIR, "first_timers.db")
 print(f"Using database: {DB_PATH}")
 conn = sqlite3.connect(DB_PATH)
