@@ -267,3 +267,8 @@ Week 5
 
 - i Think the mentality of playing around with code seeing what it can do or show me or what i need - might be a great mentality going into things.
 
+November/05/25
+
+- Bit by bit im getting into shortcuts more on navigating through vs code and other applications powershell too.
+
+- 

@@ -1,6 +1,4 @@
-count = 0 
-while count < 5:
-    print(count)
-    count += 1
+def introduce(self):
+    return f"My name is {self.name} and im {self.age} years old"
 
     
