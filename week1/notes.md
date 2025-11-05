@@ -271,4 +271,5 @@ November/05/25
 
 - Bit by bit im getting into shortcuts more on navigating through vs code and other applications powershell too.
 
-- 
+- So im learning that not being able to play around with code limits me in a way and blocks my engagement, im creative by nature and being able to play around with code as i noticed this week is my fortay. So i guess i have to do that deepseek more first to a place i can be able to just play code then continue with my automations and webscrapings etc before api python which then will be met with postgre connections then django later.
+
